@@ -159,9 +159,10 @@ h1 {
 }
 
 #columns {
-	width: 44%;
-	display: inline-block;
-	min-width: 300px;
+	width: 450px;
+	min-width: 250px;
+	display: flex;
+	align-content: flex-start;
 	flex-wrap: wrap;
 }
 
@@ -172,4 +173,5 @@ h1 {
 
 #paragraphs {
 	font-size: 18px;
+	margin-top: 0;
 }
