@@ -35,15 +35,22 @@ li {
   box-sizing: border-box;
 }
 
+#page1 {
+	background-color: white;
+	font-family: 'Lexend Deca', sans-serif;
+	display: flex;
+	margin-top: 20px;
+}
+
+
 #left {
-  font-family: 'Lexend Deca', sans-serif;
   padding-top: 50px;
-  margin-left: 50px;
+  margin-left: 40px;
   margin-top: 0px;
-  margin-right: 25px;
-  width: 55%;
+  width: 800px;
   box-sizing: border-box;
-  display: inline-block;
+  display: flex;
+	flex-direction: column;
 }
 
 h1 {
@@ -106,113 +113,61 @@ h1 {
 }
 
 #mv {
-  display: inline-block;
   width: 220px;
   height: 130px;
   object-fit: cover;
+	flex-shrink: 0;
 }
 
 #right {
   font-family: 'Lexend Deca', sans-serif;
-  vertical-align: top;
-  display: inline-block;
-  margin-top: 50px;
-  width: 37%;
+  width: 650px;
+	padding-left: 20px;
+	padding-top: 50px;
+	padding-right: 20px;
 }
 
 #titles {
-  vertical-align: top;
   font-size: 18px;
-  display: inline-block;
   width: 57%;
-  padding-left: 5px;
-  padding-top: 10px;
+  padding-left: 10px;
 	color: black;
+	align-items: center;
 }
 
 #articles {
   padding-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 
-#background1 {
+#background {
 	background-color: white;
 }
 
-#background2 {
-	background-color: #8299D6 ;
-}
-
-#background3 {
-	background-color: #FFC8C8 ;
-}
 
 #page2 {
-	margin-left: 350px;
-	margin-right: 350px;
-	margin-top: 30px;
-	/* border-style: solid;
-	border-color: red; */
+	margin-top: 40px;
+	padding-left: 250px;
+	padding-right: 250px;
 	font-family: 'Lexend Deca', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+	justify-content: space-evenly;
 }
 
-#p2-1 {
-	/* border-style: solid;
-	border-color: blue; */
+#columns {
 	width: 44%;
-	padding: 20px;
 	display: inline-block;
-	vertical-align: top;
-}
-
-#p2-2 {
-	/* border-style: solid;
-	border-color: blue; */
-	width: 44%;
-	padding: 20px;
-	display: inline-block;
-	vertical-align: top;
-	position: relative; top: 90px;
-}
-
-#p2-3 {
-	width: 44%;
-	padding: 20px;
-	display: inline-block;
-	position: relative; top: -50px;
-}
-
-#p2-4 {
-	width: 44%;
-	padding: 20px;
-	display: inline-block;
-	position: relative; top: -160px;
-}
-
-#p3-2 {
-	width: 44%;
-	padding: 20px;
-	display: inline-block;
-	position: relative; top: 90px;
-}
-
-#p3-3 {
-	width: 44%;
-	padding: 20px;
-	display: inline-block;
-	position: relative; top: -220px;
-}
-
-#p3-4 {
-	width: 44%;
-	padding: 20px;
-	display: inline-block;
-	position: relative; top: 100px;
+	min-width: 300px;
+	flex-wrap: wrap;
 }
 
 #image {
 	width: 100%;
-	height: auto;
-	border-radius: 3%;
+	height: auto;;
 }
 
 #paragraphs {
