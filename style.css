@@ -159,11 +159,12 @@ h1 {
 }
 
 #columns {
-	width: 450px;
+	width: 470px;
 	min-width: 250px;
 	display: flex;
 	align-content: flex-start;
 	flex-wrap: wrap;
+	margin: 5px;
 }
 
 #image {
